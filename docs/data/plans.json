@@ -1,0 +1,871 @@
+{
+  "generatedAt": "2026-07-26T20:32:38.802Z",
+  "planCount": 1,
+  "plans": [
+    {
+      "id": "dsa-striver-a2z",
+      "title": "DSA — Striver A2Z Sheet",
+      "domain": "dsa",
+      "description": "Full Striver A2Z sheet paced for an experienced Java dev targeting Amazon SDE II. Known topics are blitzed; new algorithmic concepts get room to breathe.",
+      "tags": [
+        "interview",
+        "java",
+        "amazon",
+        "dsa"
+      ],
+      "labels": {
+        "chapter": "phase",
+        "section": "week",
+        "task": "batch"
+      },
+      "effort": {
+        "unit": "problem",
+        "unitPlural": "problems",
+        "minutesPerUnit": 25
+      },
+      "chapters": [
+        {
+          "id": "p0",
+          "title": "Phase 0 — Setup",
+          "meta": {
+            "weeks": 0,
+            "pace": "fast"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p0w0",
+              "title": "Setup",
+              "meta": {
+                "week": 0
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p0-accounts",
+                  "title": "Create LeetCode account; bookmark Striver's A2Z sheet",
+                  "difficulty": null,
+                  "effortMinutes": 20,
+                  "effortUnits": null,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p0-repo",
+                  "title": "Set up a Java repo for solutions, one file per problem",
+                  "difficulty": null,
+                  "effortMinutes": 30,
+                  "effortUnits": null,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p0-math",
+                  "title": "Confirm Big-O fluency + targeted math refresh (logs, modular, combinatorics, bits)",
+                  "difficulty": null,
+                  "effortMinutes": 180,
+                  "effortUnits": null,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p0-calendar",
+                  "title": "Block a fixed daily study slot in the calendar",
+                  "difficulty": null,
+                  "effortMinutes": 15,
+                  "effortUnits": null,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p1",
+          "title": "Phase 1 — Blitz known territory (Weeks 1–3)",
+          "meta": {
+            "weeks": "1-3",
+            "problems": 133,
+            "pace": "fast"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p1w1",
+              "title": "Week 1 — Foundations + Sorting",
+              "meta": {
+                "week": 1,
+                "problems": 61
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p1w1-basics",
+                  "title": "Step 1 basics: Java essentials, logical thinking, all 22 patterns",
+                  "difficulty": null,
+                  "effortMinutes": 825,
+                  "effortUnits": 33,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p1w1-maths",
+                  "title": "Basic Maths (7): digits, reverse, palindrome, GCD, Armstrong, divisors, prime",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p1w1-recursion",
+                  "title": "Basic Recursion (9): print N times, factorial, reverse array, fibonacci",
+                  "difficulty": null,
+                  "effortMinutes": 225,
+                  "effortUnits": 9,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p1w1-hashing",
+                  "title": "Basic Hashing (3) + Java Collections deep-dive (2)",
+                  "difficulty": null,
+                  "effortMinutes": 125,
+                  "effortUnits": 5,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p1w1-sorting",
+                  "title": "Sorting I & II (7): selection, bubble, insertion, merge, quick",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p1w2",
+              "title": "Week 2 — Arrays, entire step",
+              "meta": {
+                "week": 2,
+                "problems": 40
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p1w2-easy",
+                  "title": "Easy (14): largest, dedupe, rotate, move zeros, union, missing number, longest subarray sum K",
+                  "difficulty": null,
+                  "effortMinutes": 350,
+                  "effortUnits": 14,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p1w2-medium",
+                  "title": "Medium (14): Two Sum, sort 0s1s2s, majority, Kadane's, stock buy-sell, next permutation, spiral",
+                  "difficulty": null,
+                  "effortMinutes": 350,
+                  "effortUnits": 14,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p1w2-hard",
+                  "title": "Hard (12): Pascal's, 3 Sum, 4 Sum, subarrays XOR K, merge intervals, count inversions, reverse pairs",
+                  "difficulty": null,
+                  "effortMinutes": 300,
+                  "effortUnits": 12,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p1w3",
+              "title": "Week 3 — Binary Search, entire step",
+              "meta": {
+                "week": 3,
+                "problems": 32
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p1w3-1d",
+                  "title": "BS on 1D (13): bounds, floor-ceil, occurrences, rotated I & II, peak element",
+                  "difficulty": null,
+                  "effortMinutes": 325,
+                  "effortUnits": 13,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p1w3-answers",
+                  "title": "BS on answers (14): sqrt, Koko, bouquets, ship packages, aggressive cows, book allocation, median 2 sorted",
+                  "difficulty": null,
+                  "effortMinutes": 350,
+                  "effortUnits": 14,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p1w3-2d",
+                  "title": "BS on 2D (5): row with max 1s, search 2D I & II, peak 2D, matrix median",
+                  "difficulty": null,
+                  "effortMinutes": 125,
+                  "effortUnits": 5,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "title": "Phase 2 — Linear structures (Weeks 4–6)",
+          "meta": {
+            "weeks": "4-6",
+            "problems": 131,
+            "pace": "fast"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p2w4",
+              "title": "Week 4 — Strings + Linked List",
+              "meta": {
+                "week": 4,
+                "problems": 46
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p2w4-str-basic",
+                  "title": "Strings basic (7): remove outer parens, reverse words, LCP, isomorphic, anagram",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w4-str-medium",
+                  "title": "Strings medium (8): sort by freq, Roman→int, atoi, longest palindromic substring",
+                  "difficulty": null,
+                  "effortMinutes": 200,
+                  "effortUnits": 8,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w4-ll-basic",
+                  "title": "LL singly + doubly (9): intros, insert/delete head, length, search, DLL reverse",
+                  "difficulty": null,
+                  "effortMinutes": 225,
+                  "effortUnits": 9,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w4-ll-medium",
+                  "title": "LL medium (15): middle, reverse, detect loop, palindrome, remove Nth, sort, intersection",
+                  "difficulty": null,
+                  "effortMinutes": 375,
+                  "effortUnits": 15,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w4-ll-hard",
+                  "title": "DLL medium (3) + LL hard (4): reverse K-group, rotate, flatten, clone with random pointer",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p2w5",
+              "title": "Week 5 — Recursion + Bit Manipulation",
+              "meta": {
+                "week": 5,
+                "problems": 43
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p2w5-rec-basic",
+                  "title": "Recursion strong hold (5): atoi, Pow(x,n), count good numbers, sort/reverse stack",
+                  "difficulty": null,
+                  "effortMinutes": 125,
+                  "effortUnits": 5,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w5-subseq",
+                  "title": "Subsequences (12): generate parens, power set, combination sum I/II/III, subsets I/II",
+                  "difficulty": null,
+                  "effortMinutes": 300,
+                  "effortUnits": 12,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w5-backtrack",
+                  "title": "Combos/hard (8): palindrome partitioning, word search, N-Queen, rat in maze, Sudoku",
+                  "difficulty": null,
+                  "effortMinutes": 200,
+                  "effortUnits": 8,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w5-bits",
+                  "title": "Bit manipulation (13): set bits, power of 2, single number I & III, XOR range",
+                  "difficulty": null,
+                  "effortMinutes": 325,
+                  "effortUnits": 13,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w5-advmath",
+                  "title": "Advanced maths (5): prime factors, divisors, count primes, sieve",
+                  "difficulty": null,
+                  "effortMinutes": 125,
+                  "effortUnits": 5,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p2w6",
+              "title": "Week 6 — Stack, Queue + Sliding Window",
+              "meta": {
+                "week": 6,
+                "problems": 42
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p2w6-learn",
+                  "title": "Learning (8): stack/queue via arrays, via each other, via LL, balanced parens, min stack",
+                  "difficulty": null,
+                  "effortMinutes": 200,
+                  "effortUnits": 8,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w6-convert",
+                  "title": "Conversions (6): infix/prefix/postfix all directions",
+                  "difficulty": null,
+                  "effortMinutes": 150,
+                  "effortUnits": 6,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w6-monotonic",
+                  "title": "Monotonic stack (11): next greater I & II, trapping rain, subarray minimums, largest rectangle",
+                  "difficulty": null,
+                  "effortMinutes": 275,
+                  "effortUnits": 11,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w6-impl",
+                  "title": "Implementation (5): sliding window max, stock span, celebrity, LRU, LFU",
+                  "difficulty": null,
+                  "effortMinutes": 125,
+                  "effortUnits": 5,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p2w6-window",
+                  "title": "Sliding window (12): longest substring no repeat, fruit baskets, min window substring",
+                  "difficulty": null,
+                  "effortMinutes": 300,
+                  "effortUnits": 12,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "title": "Phase 3 — Heaps & Greedy (Weeks 7–8)",
+          "meta": {
+            "weeks": "7-8",
+            "problems": 32,
+            "pace": "moderate"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p3w7",
+              "title": "Week 7 — Heaps",
+              "meta": {
+                "week": 7,
+                "problems": 17
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p3w7-learn",
+                  "title": "Learning (4): theory, min-heap, check min-heap, min→max",
+                  "difficulty": null,
+                  "effortMinutes": 100,
+                  "effortUnits": 4,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p3w7-medium",
+                  "title": "Medium (7): Kth largest/smallest, sort K-sorted, merge K lists, task scheduler",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p3w7-hard",
+                  "title": "Hard (6): Design Twitter, connect sticks, Kth largest stream, median from data stream",
+                  "difficulty": null,
+                  "effortMinutes": 150,
+                  "effortUnits": 6,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p3w8",
+              "title": "Week 8 — Greedy",
+              "meta": {
+                "week": 8,
+                "problems": 15
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p3w8-easy",
+                  "title": "Easy (4): assign cookies, fractional knapsack, lemonade, valid parens",
+                  "difficulty": null,
+                  "effortMinutes": 100,
+                  "effortUnits": 4,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p3w8-hard",
+                  "title": "Medium/Hard (11): N meetings, jump game I & II, platforms, job sequencing, candy, intervals",
+                  "difficulty": null,
+                  "effortMinutes": 275,
+                  "effortUnits": 11,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "title": "Phase 4 — Trees & BST (Weeks 9–11)",
+          "meta": {
+            "weeks": "9-11",
+            "problems": 54,
+            "pace": "moderate"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p4w9",
+              "title": "Week 9 — Binary Trees: traversals + medium",
+              "meta": {
+                "week": 9,
+                "problems": 24
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p4w9-traversal",
+                  "title": "Traversals (12): pre/in/post recursive + iterative, level order, Morris prep",
+                  "difficulty": null,
+                  "effortMinutes": 300,
+                  "effortUnits": 12,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p4w9-medium",
+                  "title": "Medium (12): max depth, balanced, diameter, max path sum, zigzag, boundary, views",
+                  "difficulty": null,
+                  "effortMinutes": 300,
+                  "effortUnits": 12,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p4w10",
+              "title": "Week 10 — Binary Trees: hard",
+              "meta": {
+                "week": 10,
+                "problems": 14
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p4w10-a",
+                  "title": "LCA, max width, nodes at distance K, burn tree, count complete nodes",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p4w10-b",
+                  "title": "Construct from pre+in & post+in, serialize-deserialize, Morris, flatten to LL",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p4w11",
+              "title": "Week 11 — Binary Search Trees",
+              "meta": {
+                "week": 11,
+                "problems": 16
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p4w11-concepts",
+                  "title": "Concepts (3): intro, search, min/max",
+                  "difficulty": null,
+                  "effortMinutes": 75,
+                  "effortUnits": 3,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p4w11-practice",
+                  "title": "Practice (13): floor/ceil, insert, delete, validate, LCA, successor, merge, largest BST",
+                  "difficulty": null,
+                  "effortMinutes": 325,
+                  "effortUnits": 13,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p5",
+          "title": "Phase 5 — Graphs (Weeks 12–14)",
+          "meta": {
+            "weeks": "12-14",
+            "problems": 53,
+            "pace": "moderate"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p5w12",
+              "title": "Week 12 — Learning + BFS/DFS",
+              "meta": {
+                "week": 12,
+                "problems": 20
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p5w12-learn",
+                  "title": "Learning (6): intro, representation, connected components, traversal, DFS",
+                  "difficulty": null,
+                  "effortMinutes": 150,
+                  "effortUnits": 6,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p5w12-bfsdfs",
+                  "title": "BFS/DFS (14): provinces, rotten oranges, flood fill, cycle detection, islands, bipartite",
+                  "difficulty": null,
+                  "effortMinutes": 350,
+                  "effortUnits": 14,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p5w13",
+              "title": "Week 13 — Topo Sort + Shortest Path",
+              "meta": {
+                "week": 13,
+                "problems": 20
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p5w13-topo",
+                  "title": "Topo (7): topo sort, Kahn's, course schedule I & II, safe states, alien dictionary",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p5w13-shortest",
+                  "title": "Shortest path (13): Dijkstra, binary maze, min effort, cheapest flights, Bellman-Ford, Floyd-Warshall",
+                  "difficulty": null,
+                  "effortMinutes": 325,
+                  "effortUnits": 13,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p5w14",
+              "title": "Week 14 — MST, DSU + advanced",
+              "meta": {
+                "week": 14,
+                "problems": 13
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p5w14-mst",
+                  "title": "MST/DSU (10): MST theory, Prim's, Disjoint Set, accounts merge, islands II, large island",
+                  "difficulty": null,
+                  "effortMinutes": 250,
+                  "effortUnits": 10,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p5w14-other",
+                  "title": "Other (3): bridges, articulation point, Kosaraju's",
+                  "difficulty": null,
+                  "effortMinutes": 75,
+                  "effortUnits": 3,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p6",
+          "title": "Phase 6 — Dynamic Programming (Weeks 15–18)",
+          "meta": {
+            "weeks": "15-18",
+            "problems": 71,
+            "pace": "moderate"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p6w15",
+              "title": "Week 15 — Intro + 1D + grids",
+              "meta": {
+                "week": 15,
+                "problems": 12
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p6w15-1d",
+                  "title": "Intro (1) + 1D (5): climbing stairs, frog jump (+K), non-adjacent sum, house robber",
+                  "difficulty": null,
+                  "effortMinutes": 150,
+                  "effortUnits": 6,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p6w15-grid",
+                  "title": "2D/Grids (6): ninja training, unique paths I & II, falling path, triangle, ninja friends",
+                  "difficulty": null,
+                  "effortMinutes": 150,
+                  "effortUnits": 6,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p6w16",
+              "title": "Week 16 — DP on subsequences",
+              "meta": {
+                "week": 16,
+                "problems": 11
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p6w16-subset",
+                  "title": "Subset sum, partition equal, min abs diff, count subsets K, count partitions diff",
+                  "difficulty": null,
+                  "effortMinutes": 125,
+                  "effortUnits": 5,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p6w16-knapsack",
+                  "title": "Min coins, target sum, coin change 2, unbounded knapsack, rod cutting",
+                  "difficulty": null,
+                  "effortMinutes": 150,
+                  "effortUnits": 6,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p6w17",
+              "title": "Week 17 — DP on strings + stocks",
+              "meta": {
+                "week": 17,
+                "problems": 16
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p6w17-strings",
+                  "title": "Strings (10): LCS, longest common substring, palindromic subseq, edit distance, wildcard",
+                  "difficulty": null,
+                  "effortMinutes": 250,
+                  "effortUnits": 10,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p6w17-stocks",
+                  "title": "Stocks (6): buy/sell I–IV, with cooldown, with fee",
+                  "difficulty": null,
+                  "effortMinutes": 150,
+                  "effortUnits": 6,
+                  "estimated": false
+                }
+              ]
+            },
+            {
+              "id": "p6w18",
+              "title": "Week 18 — LIS + MCM + squares",
+              "meta": {
+                "week": 18,
+                "problems": 18
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p6w18-lis",
+                  "title": "LIS (7): LIS + print, largest divisible subset, string chain, bitonic, count LIS",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p6w18-mcm",
+                  "title": "MCM (9): matrix chain, min cost cut stick, burst balloons, palindrome partition II",
+                  "difficulty": null,
+                  "effortMinutes": 225,
+                  "effortUnits": 9,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p6w18-squares",
+                  "title": "Squares (2): max rectangle of 1s, count square submatrices",
+                  "difficulty": null,
+                  "effortMinutes": 50,
+                  "effortUnits": 2,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p7",
+          "title": "Phase 7 — Tries & advanced strings (Week 19)",
+          "meta": {
+            "weeks": 19,
+            "problems": 16,
+            "pace": "moderate"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p7w19",
+              "title": "Week 19 — Tries + hard strings",
+              "meta": {
+                "week": 19,
+                "problems": 16
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p7w19-tries",
+                  "title": "Tries (7): implementation, longest word all prefixes, distinct substrings, max XOR",
+                  "difficulty": null,
+                  "effortMinutes": 175,
+                  "effortUnits": 7,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p7w19-strings",
+                  "title": "Strings hard (9): Rabin-Karp, Z-function, KMP/LPS, shortest palindrome, longest happy prefix",
+                  "difficulty": null,
+                  "effortMinutes": 225,
+                  "effortUnits": 9,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p8",
+          "title": "Phase 8 — Revision & mocks (Week 20+)",
+          "meta": {
+            "weeks": 20,
+            "pace": "ongoing"
+          },
+          "description": "",
+          "sections": [
+            {
+              "id": "p8w20",
+              "title": "Ongoing",
+              "meta": {
+                "week": 20
+              },
+              "description": "",
+              "tasks": [
+                {
+                  "id": "t-p8-flagged",
+                  "title": "Re-solve every flagged problem from the weak-spots log",
+                  "difficulty": null,
+                  "effortMinutes": 600,
+                  "effortUnits": null,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p8-amazon",
+                  "title": "Re-do Amazon-tagged LeetCode problems",
+                  "difficulty": null,
+                  "effortMinutes": 600,
+                  "effortUnits": null,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p8-mocks",
+                  "title": "Timed mock interviews, 2–3 per week (Pramp / interviewing.io)",
+                  "difficulty": null,
+                  "effortMinutes": 720,
+                  "effortUnits": null,
+                  "estimated": false
+                },
+                {
+                  "id": "t-p8-sheet",
+                  "title": "Build a one-line-per-problem revision sheet",
+                  "difficulty": null,
+                  "effortMinutes": 240,
+                  "effortUnits": null,
+                  "estimated": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totals": {
+        "chapters": 9,
+        "sections": 21,
+        "tasks": 62,
+        "minutes": 14305,
+        "units": 572.2
+      },
+      "version": "12e379b9ca84a8",
+      "sourceFile": "plans/dsa-striver-a2z.md",
+      "slug": "dsa-striver-a2z"
+    }
+  ]
+}

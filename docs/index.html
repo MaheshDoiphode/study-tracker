@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="dark light" />
+<title>Study Tracker</title>
+<link rel="stylesheet" href="./styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
+</head>
+<body>
+
+<!-- Setup notice, shown when config.js still has placeholders -->
+<div id="setup-notice" class="setup-notice hidden">
+  <div class="setup-card">
+    <h1>Almost there</h1>
+    <p>Add your Supabase project URL and publishable key to <code>docs/js/config.js</code>, then reload.</p>
+    <ol>
+      <li>Create a project at <strong>supabase.com</strong></li>
+      <li>Run <code>supabase/schema.sql</code> in the SQL editor</li>
+      <li>Disable sign-ups, then add your two users manually</li>
+      <li>Copy the project URL + publishable key (<code>sb_publishable_…</code>) into <code>config.js</code></li>
+    </ol>
+  </div>
+</div>
+
+<!-- Login -->
+<div id="login-view" class="login-view hidden">
+  <form id="login-form" class="login-card" autocomplete="on">
+    <h1>Study Tracker</h1>
+    <p class="muted">Sign in to continue</p>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required autocomplete="username" />
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" required autocomplete="current-password" />
+    <button type="submit" class="btn primary" id="login-btn">Sign in</button>
+    <p id="login-error" class="error hidden" role="alert"></p>
+  </form>
+</div>
+
+<!-- App -->
+<div id="app" class="app hidden">
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">📚</span>
+      <span>Study Tracker</span>
+    </div>
+    <nav class="tabs">
+      <button class="tab active" data-view="dashboard">Dashboard</button>
+      <button class="tab" data-view="plans">Plans</button>
+      <button class="tab" data-view="calendar">Calendar</button>
+      <button class="tab" data-view="notes">Notes</button>
+      <button class="tab" data-view="settings">Settings</button>
+    </nav>
+    <div class="topbar-right">
+      <span id="streak-badge" class="streak" title="Current streak"></span>
+      <span id="user-email" class="muted small"></span>
+      <button id="logout-btn" class="btn ghost small">Sign out</button>
+    </div>
+  </header>
+
+  <main id="main" class="main">
+    <div class="loading">Loading…</div>
+  </main>
+</div>
+
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+<!-- Modal host -->
+<div id="modal-backdrop" class="modal-backdrop hidden">
+  <div id="modal" class="modal" role="dialog" aria-modal="true"></div>
+</div>
+
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>
